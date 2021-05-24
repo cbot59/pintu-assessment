@@ -2,7 +2,10 @@ package dev.rivaldi.app;
 
 import java.util.List;
 
-public class QuestionOne {
+public final class QuestionOne {
+
+    private QuestionOne() {
+    }
 
     public static int maxProfit(List<Integer> prices) {
         // 0 element should return 0

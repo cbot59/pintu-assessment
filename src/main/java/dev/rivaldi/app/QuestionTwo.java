@@ -3,7 +3,10 @@ package dev.rivaldi.app;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class QuestionTwo {
+public final class QuestionTwo {
+
+    private QuestionTwo() {
+    }
 
     public static String uniqueStrings(String s) {
         // LinkedHashSet ensures order is maintained
